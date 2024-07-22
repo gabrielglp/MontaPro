@@ -20,7 +20,7 @@ export default function Home() {
             <title>Home - MontaPro</title>
         </Head>
 
-        <main className="bg-img-yellow-tools absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat">
+        <main className="bg-img-yellow-tools1080 sm:bg-img-yellow-tools1366 xl:bg-img-yellow-tools absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat">
             <NavBar/>
             <div className="min-h-[90vh] flex justify-center items-center flex-col bg-grey-900">
                 <div className="mt-8 w-full md:w-[600px] flex items-center justify-center flex-col py-8 px-8">

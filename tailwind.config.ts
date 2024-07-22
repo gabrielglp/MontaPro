@@ -13,6 +13,8 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         'img-yellow-tools': "url('/yellow-tools.jpg')",
+        'img-yellow-tools1366': "url('/yellow-tools1366.jpg')",
+        'img-yellow-tools1080': "url('/yellow-tools1080.jpg')",
       },
       colors: {
 

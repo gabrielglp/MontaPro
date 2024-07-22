@@ -9,7 +9,7 @@ export default function NavBar() {
             <div className="max-w-[1800px] h-20 mx-auto px-8 flex justify-around items-center">
                 <Link className="flex items-center pr-12 md:pr-16" href={"/"}>
                    <Image className="pr-2 w-10 md:w-14" src={LogoIcon} alt=""/>
-                   <span className="text-white text-sm md:text-3xl font-bold">Monta<span className="text-yellow-700">Pro</span></span>
+                   <span className="text-white text-sm md:text-3xl font-bold">Montta<span className="text-yellow-700">Pro</span></span>
                 </Link>
 
                 <nav className="opacity-100 flex items-center">
