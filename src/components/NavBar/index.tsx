@@ -13,7 +13,7 @@ export default function NavBar() {
                 </Link>
 
                 <nav className="opacity-100 flex items-center">
-                    <Link href={"/"}>
+                    <Link href={"/sobre"}>
                         <span className="text-white text-xs md:text-base pr-4 inline-block relative hover:text-yellow-700 transition-colors duration-700 font-semibold">Sobre</span>
                     </Link>
 
