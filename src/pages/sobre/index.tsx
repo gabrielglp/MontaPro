@@ -2,7 +2,6 @@ import NavBar from "@/components/NavBar";
 import Head from "next/head"
 
 import Image from "next/image";
-import Link from "next/link";
 
 import LogoIcon from "../../../public/logo-tools.png";
 
@@ -15,9 +14,9 @@ export default function Sobre() {
 
             <main className="">
                 <NavBar/>
-                <section className="flex flex-col mt-10">
+                <section className="flex flex-col mt-10 ">
                     <div className="flex justify-center">
-                        <div className="bg-black flex justify-center flex-col w-[35rem] rounded-2xl p-10">
+                        <div className="bg-black flex justify-center flex-col w-11/12 md:w-[35rem] rounded-2xl p-10">
                             <div>
                                 <p className="text-base text-white">
                                     Na<span className="text-white text-base font-bold"> Montta<span className="text-yellow-700">Pro</span></span>
@@ -37,8 +36,8 @@ export default function Sobre() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center mt-7 gap-4">
-                        <div className="bg-white flex justify-center flex-col w-[25rem] rounded-2xl p-10">
+                    <div className="flex flex-col md:flex-row justify-center mt-7 gap-4 items-center">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:ml-0 md:ml-4">
                             <div className="flex justify-center flex-col items-center">
                                 <h2 className="text-xl font-semibold">
                                     Profissionais Qualificados                    
@@ -56,7 +55,7 @@ export default function Sobre() {
                             </div>
                         </div>
                         
-                        <div className="bg-white flex justify-center flex-col w-[25rem] rounded-2xl p-10">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10">
                             <div className="flex justify-center flex-col items-center">
                                 <h2 className="text-xl font-semibold">
                                     Facilidade de Agendamento                     
@@ -75,7 +74,7 @@ export default function Sobre() {
                             </div>
                         </div>
                         
-                        <div className="bg-white flex justify-center flex-col w-[25rem] rounded-2xl p-10">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:mr-0 md:mr-4">
                             <div className="flex justify-center flex-col items-center">
                                 <p className="text-xl font-semibold">
                                     Transparência e Confiança                      
