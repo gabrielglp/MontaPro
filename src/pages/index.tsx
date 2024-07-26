@@ -25,11 +25,11 @@ export default function Home() {
             <div className="min-h-[90vh] flex justify-center items-center flex-col bg-grey-900">
                 <div className="mt-8 w-full md:w-[600px] flex items-center justify-center flex-col py-8 px-8">
                     <div className="flex mb-6">
-                        <Link href="/" className="bg-green-700 p-4 px-2 md:px-6 mr-4 rounded-2xl">
+                        <Link href="/" className="bg-green-700 hover:bg-green-400 transition duration-700 p-4 px-2 md:px-6 mr-4 rounded-2xl">
                             <p className="text-xs md:text-sm font-semibold">Seja um Montador</p>
                         </Link>
 
-                        <Link href="/montadores" className="bg-custom-black-100 p-4 px-2 md:px-6 mr-4 rounded-2xl">
+                        <Link href="/montadores" className="bg-gray-700 hover:bg-gray-900 transition duration-700 p-4 px-2 md:px-6 mr-4 rounded-2xl">
                             <p className="text-white-200 text-xs md:text-sm font-semibold">Todos os Montadores</p>
                         </Link>
 

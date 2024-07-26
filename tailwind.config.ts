@@ -20,8 +20,10 @@ const config: Config = {
 
         'yellow-700': '#FEE752',
 
+        'green-400': '#5FF9C5',
         'green-700': '#02E095',
 
+        'gray-900': '#2F2F2F',
         'gray-800': '#424242',
         'gray-700': '#545454',
         'gray-100': '#8A8A8A',

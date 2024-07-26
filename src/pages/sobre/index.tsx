@@ -15,7 +15,7 @@ export default function Sobre() {
             <main className="">
                 <NavBar/>
                 <section className="flex flex-col mt-10 ">
-                    <div className="flex justify-center">
+                    <div className="flex justify-center animate__animated animate__fadeInDown">
                         <div className="bg-black flex justify-center flex-col w-11/12 md:w-[35rem] rounded-2xl p-10">
                             <div>
                                 <p className="text-base text-white">
@@ -37,7 +37,7 @@ export default function Sobre() {
                     </div>
 
                     <div className="flex flex-col md:flex-row justify-center mt-7 gap-4 items-center">
-                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:ml-0 md:ml-4">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:ml-0 md:ml-4 animate__animated animate__fadeInDown delay-100 shadow-2xl">
                             <div className="flex justify-center flex-col items-center">
                                 <h2 className="text-xl font-semibold">
                                     Profissionais Qualificados                    
@@ -55,7 +55,7 @@ export default function Sobre() {
                             </div>
                         </div>
                         
-                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 animate__animated animate__fadeInDown delay-200 shadow-2xl">
                             <div className="flex justify-center flex-col items-center">
                                 <h2 className="text-xl font-semibold">
                                     Facilidade de Agendamento                     
@@ -74,7 +74,7 @@ export default function Sobre() {
                             </div>
                         </div>
                         
-                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:mr-0 md:mr-4">
+                        <div className="bg-white flex justify-center flex-col w-11/12 md:h-[30rem] lg:h-96 xl:h-auto md:w-2/4 xl:w-[25rem] rounded-2xl p-10 xl:mr-0 md:mr-4 animate__animated animate__fadeInDown delay-300 shadow-2xl">
                             <div className="flex justify-center flex-col items-center">
                                 <p className="text-xl font-semibold">
                                     Transparência e Confiança                      
